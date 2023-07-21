@@ -15,7 +15,6 @@ typedef struct format
 } convert_match;
 
 
-
 //formatting whatever the user gives us
 int _print(const char *format, ...);
 
@@ -29,7 +28,7 @@ int printChar(va_list val);
 int printfString(va_list val);
 
 //printing a char as a sring
-void _printStr(const char *str);
+//void _printStr(const char *str);
 
 //get the length of a constant char
 int _strLenc(const char *s);

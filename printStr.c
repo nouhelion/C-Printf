@@ -30,12 +30,3 @@ int _strLenc(const char *s)
         ;
     return (c);
 }
-
-void _printStr(const char *str)
-{
-    while (*str)
-    {
-        _putChar(*str);
-        str++;
-    }
-}
