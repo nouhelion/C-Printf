@@ -77,4 +77,19 @@ The custom printf function currently supports the following format specifiers:
 Examples
 Here are some examples of how to use the custom printf function:
 
+#include "myprintf.h"
+
+int main() {
+    int num = 42;
+    float pi = 3.14159;
+    char initial = 'J';
+    char name[] = "John Doe";
+
+    myprintf("Integer: %d\n", num);
+    myprintf("Float: %f\n", pi);
+    myprintf("Character: %c\n", initial);
+    myprintf("String: %s\n", name);
+
+    return 0;
+}
 
