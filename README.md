@@ -19,16 +19,20 @@ This project is an implementation of the `printf` function in C programming lang
 To use the custom `printf` function, follow these steps:
 
 1. Clone the repository to your local machine:
-git clone https://github.com/nouhelion/printf.git
+
+    git clone https://github.com/nouhelion/Printf.git
 
 3. Navigate to the project directory:
-cd printf
+
+    cd Printf
 
 5. Compile the source code:
-gcc -o myprintf myprintf.c main.c
+
+    gcc -o myprintf myprintf.c main.c
 
 7. Run the executable:
-./myprintf
+
+   ./myprintf
 
 ## Usage
 
