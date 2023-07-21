@@ -39,11 +39,10 @@ To use the custom `printf` function, follow these steps:
 
 ```
 Printf/
-├── src/
-│   ├── myprintf.c
-│   └── main.c
-├── include/
-│   └── main.h
+├── _printf.c
+├── _putchar.c
+├── test.c
+├── main.h
 └── README.md
 ```
 
