@@ -80,3 +80,16 @@ Float: 3.141590
 Character: J
 String: John Doe
 ```
+
+## Contributing
+If you want to contribute to this project, please follow these steps:
+
+Fork the repository
+Create a new branch
+Make your changes and commit them
+Push your changes to your fork
+Submit a pull request to the original repository
+Please ensure your code follows the project's coding standards and conventions.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
