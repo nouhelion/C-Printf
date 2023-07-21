@@ -49,11 +49,12 @@ The custom printf function currently supports the following format specifiers:
 %d - Integer
 %c - Character
 %f - Float (single-precision)
-```c
+```
 
 ## Examples
 Here are some examples of how to use the custom printf function:
 
+```c
 #include "myprintf.h"
 
 int main() {
@@ -69,4 +70,4 @@ int main() {
 
     return 0;
 }
-
+```
