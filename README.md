@@ -8,6 +8,7 @@ This project is an implementation of the `printf` function in C programming lang
 ## Table of Contents
 
 - [Installation](#installation)
+- [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Supported Format Specifiers](#supported-format-specifiers)
 - [Examples](#examples)
@@ -33,6 +34,18 @@ To use the custom `printf` function, follow these steps:
 7. Run the executable:
 
    ./myprintf
+
+## Project Structure 
+
+```
+Printf/
+├── src/
+│   ├── myprintf.c
+│   └── main.c
+├── include/
+│   └── main.h
+└── README.md
+```
 
 ## Usage
 
