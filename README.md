@@ -1,29 +1,4 @@
-# Makefile for Printf Project
 
-# Define the target executable
-TARGET = myprintf
-
-# Source files
-SRCS = myprintf.c main.c
-
-# Compiler settings
-CC = gcc
-CFLAGS = -Wall -Wextra -Werror
-
-# Build the project
-$(TARGET): $(SRCS)
-	$(CC) $(CFLAGS) $(SRCS) -o $(TARGET)
-
-# Run the executable
-run: $(TARGET)
-	./$(TARGET)
-
-# Clean the build
-clean:
-	rm -f $(TARGET)
-
-# Define the README content as a variable
-define README_CONTENT
 # Printf Project
 
 ## Overview
@@ -74,7 +49,9 @@ The custom printf function currently supports the following format specifiers:
 %d - Integer
 %c - Character
 %f - Float (single-precision)
-Examples
+```c
+
+## Examples
 Here are some examples of how to use the custom printf function:
 
 #include "myprintf.h"
