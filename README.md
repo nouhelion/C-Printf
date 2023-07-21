@@ -9,6 +9,7 @@ This project is an implementation of the `printf` function in C programming lang
 
 - [Installation](#installation)
 - [Project Structure](#project-structure)
+- [Authorized functions and macros](#authorized-functions-and-macros)
 - [Usage](#usage)
 - [Supported Format Specifiers](#supported-format-specifiers)
 - [Examples](#examples)
@@ -39,12 +40,22 @@ To use the custom `printf` function, follow these steps:
 
 ```
 Printf/
-├── src/
-│   ├── myprintf.c
-│   └── main.c
-├── include/
-│   └── main.h
+├── _printf.c
+├── _putchar.c
+├── test.c
+├── main.h
 └── README.md
+```
+## Authorized functions and macros
+
+```
+write (man 2 write)
+malloc (man 3 malloc)
+free (man 3 free)
+va_start (man 3 va_start)
+va_end (man 3 va_end)
+va_copy (man 3 va_copy)
+va_arg (man 3 va_arg)
 ```
 
 ## Usage
@@ -52,10 +63,10 @@ Printf/
 The custom `printf` function can be used just like the standard `printf` from the C library. Include the header file `"myprintf.h"` in your C source files to use the function.
 
 ```c
-#include "myprintf.h"
+#include "main.h"
 
 int main() {
- myprintf("Hello, %s! The value of x is %d and y is %f.\n", "User", 42, 3.14);
+ print("Hello, %s! The value of x is %d and y is %f.\n", "User", 42, 3.14);
  return 0;
 }
 
@@ -72,7 +83,7 @@ The custom printf function currently supports the following format specifiers:
 Here are some examples of how to use the custom printf function:
 
 ```c
-#include "myprintf.h"
+#include "main.h"
 
 int main() {
     int num = 42;
@@ -80,10 +91,10 @@ int main() {
     char initial = 'J';
     char name[] = "John Doe";
 
-    myprintf("Integer: %d\n", num);
-    myprintf("Float: %f\n", pi);
-    myprintf("Character: %c\n", initial);
-    myprintf("String: %s\n", name);
+    print("Integer: %d\n", num);
+    print("Float: %f\n", pi);
+    print("Character: %c\n", initial);
+    print("String: %s\n", name);
 
     return 0;
 }
