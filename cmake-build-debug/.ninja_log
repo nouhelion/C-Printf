@@ -11,3 +11,16 @@
 23	181	7116696040789463	CMakeFiles/Printf.dir/printString.c.obj	d802d0b18f646b2a
 3	109	7116696147322209	CMakeFiles/Printf.dir/test.c.obj	fe39004ab8f6b600
 2	92	7116696966943922	CMakeFiles/Printf.dir/printStr.c.obj	1cbd5bb37edc529e
+12	333	7116699240545657	CMakeFiles/Printf.dir/_putchar.c.obj	dfc4ae34da9da75e
+16	335	7116699240565673	CMakeFiles/Printf.dir/printString.c.obj	d802d0b18f646b2a
+2	337	7116699240589803	CMakeFiles/Printf.dir/test.c.obj	fe39004ab8f6b600
+20	340	7116699240614921	CMakeFiles/Printf.dir/printChar.c.obj	22fff6dd716f71ce
+24	341	7116699240614921	CMakeFiles/Printf.dir/printStr.c.obj	1cbd5bb37edc529e
+7	342	7116699240654925	CMakeFiles/Printf.dir/print.c.obj	bd0f72bc74e0e6c
+17	339	7116717015238391	CMakeFiles/Printf.dir/_putchar.c.obj	dfc4ae34da9da75e
+40	343	7116717015261655	CMakeFiles/Printf.dir/printString.c.obj	d802d0b18f646b2a
+5	344	7116717015261655	CMakeFiles/Printf.dir/test.c.obj	fe39004ab8f6b600
+54	352	7116717015374215	CMakeFiles/Printf.dir/printChar.c.obj	22fff6dd716f71ce
+68	357	7116717015437019	CMakeFiles/Printf.dir/printStr.c.obj	1cbd5bb37edc529e
+5	167	7116717163332625	CMakeFiles/Printf.dir/print.c.obj	bd0f72bc74e0e6c
+168	367	7116717165228995	Printf.exe	d7af9d74d7d83bfc

@@ -25,7 +25,7 @@ int _putChar(char c);
 int printChar(va_list val);
 
 //formating a whole string
-int printfString(va_list val);
+int printString(va_list val);
 
 //printing a char as a sring
 //void _printStr(const char *str);
