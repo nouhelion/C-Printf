@@ -1,4 +1,4 @@
-#include "main.h"
+#include "../include/main.h"
 
 /**
  * _putChar - writes the character c to stdout

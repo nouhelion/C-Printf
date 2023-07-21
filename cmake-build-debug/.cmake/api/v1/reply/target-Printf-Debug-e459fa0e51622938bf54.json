@@ -123,7 +123,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "main.h",
+			"path" : "include/main.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -135,25 +135,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "_putchar.c",
+			"path" : "src/_putchar.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "printChar.c",
+			"path" : "src/printChar.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "printString.c",
+			"path" : "src/printString.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "printStr.c",
+			"path" : "src/printStr.c",
 			"sourceGroupIndex" : 0
 		}
 	],
