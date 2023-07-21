@@ -66,13 +66,14 @@ va_arg (man 3 va_arg)
 
 ## Usage
 
-The custom `printf` function can be used just like the standard `printf` from the C library. Include the header file `"myprintf.h"` in your C source files to use the function.
+The custom `printf` function can be used just like the standard `printf` from the C library. Include the header file `"main.h"` in your C source files to use the function.
 
 ```c
 #include "main.h"
 
 int main() {
- print("Hello, %s! The value of x is %d and y is %f.\n", "User", 42, 3.14);
+ _print("Hello, World!\n");
+ _print("Hello, %s! The value of x is %d and y is %f.\n", "User", 42, 3.14);
  return 0;
 }
 
@@ -97,10 +98,10 @@ int main() {
     char initial = 'J';
     char name[] = "John Doe";
 
-    print("Integer: %d\n", num);
-    print("Float: %f\n", pi);
-    print("Character: %c\n", initial);
-    print("String: %s\n", name);
+    _print("Integer: %d\n", num);
+    _print("Float: %f\n", pi);
+    _print("Character: %c\n", initial);
+    _print("String: %s\n", name);
 
     return 0;
 }
