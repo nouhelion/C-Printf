@@ -40,10 +40,16 @@ To use the custom `printf` function, follow these steps:
 
 ```
 Printf/
-├── _printf.c
-├── _putchar.c
+├── src/
+│   ├── _putchar.c 
+│   ├── printChar.c 
+│   ├── printString.c
+│   └── printStr.c
+├── include/
+│   └── main.h
+├── print.c
 ├── test.c
-├── main.h
+├── CMakeLists.txt
 └── README.md
 ```
 ## Authorized functions and macros
