@@ -22,11 +22,14 @@ int _print(const char *format, ...);
 //formating one character
 int _putChar(char c);
 
+//printing a char
+int printChar(va_list val);
+
 //formating a whole string
 int printfString(va_list val);
 
 //printing a char as a sring
-//void _printStr(const char *str);
+void _printStr(const char *str);
 
 //get the length of a constant char
 int _strLenc(const char *s);
