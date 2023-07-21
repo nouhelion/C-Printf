@@ -3,4 +3,4 @@ project(Printf C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Printf src/main.c include/main.h include/main.h)
+add_executable(Printf test.c main.h printf.c _putchar.c)
