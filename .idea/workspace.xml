@@ -20,16 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8390567-8c29-46a2-8e5e-27725e7b0eed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_putchar.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/_putchar.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print.c" beforeDir="false" afterPath="$PROJECT_DIR$/print.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/printChar.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/printChar.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/printStr.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/printStr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/printString.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/printString.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
-    </list>
+    <list default="true" id="f8390567-8c29-46a2-8e5e-27725e7b0eed" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689931865899</updated>
-      <workItem from="1689931870549" duration="8620000" />
+      <workItem from="1689931870549" duration="8924000" />
     </task>
     <servers />
   </component>
