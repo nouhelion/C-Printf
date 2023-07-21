@@ -55,14 +55,32 @@ build CMakeFiles/Printf.dir/test.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/
   OBJECT_DIR = CMakeFiles\Printf.dir
   OBJECT_FILE_DIR = CMakeFiles\Printf.dir
 
-build CMakeFiles/Printf.dir/printf.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/printf.c || cmake_object_order_depends_target_Printf
-  DEP_FILE = CMakeFiles\Printf.dir\printf.c.obj.d
+build CMakeFiles/Printf.dir/print.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/print.c || cmake_object_order_depends_target_Printf
+  DEP_FILE = CMakeFiles\Printf.dir\print.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Printf.dir
   OBJECT_FILE_DIR = CMakeFiles\Printf.dir
 
 build CMakeFiles/Printf.dir/_putchar.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/_putchar.c || cmake_object_order_depends_target_Printf
   DEP_FILE = CMakeFiles\Printf.dir\_putchar.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Printf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Printf.dir
+
+build CMakeFiles/Printf.dir/printChar.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/printChar.c || cmake_object_order_depends_target_Printf
+  DEP_FILE = CMakeFiles\Printf.dir\printChar.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Printf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Printf.dir
+
+build CMakeFiles/Printf.dir/printString.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/printString.c || cmake_object_order_depends_target_Printf
+  DEP_FILE = CMakeFiles\Printf.dir\printString.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Printf.dir
+  OBJECT_FILE_DIR = CMakeFiles\Printf.dir
+
+build CMakeFiles/Printf.dir/printStr.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/printStr.c || cmake_object_order_depends_target_Printf
+  DEP_FILE = CMakeFiles\Printf.dir\printStr.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Printf.dir
   OBJECT_FILE_DIR = CMakeFiles\Printf.dir
@@ -75,7 +93,7 @@ build CMakeFiles/Printf.dir/_putchar.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRI
 #############################################
 # Link the executable Printf.exe
 
-build Printf.exe: C_EXECUTABLE_LINKER__Printf_Debug CMakeFiles/Printf.dir/test.c.obj CMakeFiles/Printf.dir/printf.c.obj CMakeFiles/Printf.dir/_putchar.c.obj
+build Printf.exe: C_EXECUTABLE_LINKER__Printf_Debug CMakeFiles/Printf.dir/test.c.obj CMakeFiles/Printf.dir/print.c.obj CMakeFiles/Printf.dir/_putchar.c.obj CMakeFiles/Printf.dir/printChar.c.obj CMakeFiles/Printf.dir/printString.c.obj CMakeFiles/Printf.dir/printStr.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Printf.dir
