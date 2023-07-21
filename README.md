@@ -71,3 +71,12 @@ int main() {
     return 0;
 }
 ```
+
+Output :
+
+```
+Integer: 42
+Float: 3.141590
+Character: J
+String: John Doe
+```
