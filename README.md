@@ -22,7 +22,7 @@ To use the custom `printf` function, follow these steps:
 
 1. Clone the repository to your local machine:
 
-    git clone https://github.com/nouhelion/Printf.git
+    git clone https://github.com/nouhelion/printf.git
 
 3. Navigate to the project directory:
 
