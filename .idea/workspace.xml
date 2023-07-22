@@ -21,8 +21,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8390567-8c29-46a2-8e5e-27725e7b0eed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_printf.c" beforeDir="false" afterPath="$PROJECT_DIR$/_printf.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/converter.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_flag.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_flag.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_print.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_print.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_address.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_address.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_alpha.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_alpha.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_bases.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_bases.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_custom.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_custom.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_nums.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_nums.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write_funcs.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/write_funcs.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +89,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\ALX\PRINTF\Printf" />
       <recent name="C:\ALX\PRINTF\Printf\src" />
       <recent name="C:\ALX\PRINTF\Printf\include" />
+      <recent name="C:\ALX\PRINTF\Printf" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,7 +117,7 @@
       <workItem from="1689931870549" duration="11771000" />
       <workItem from="1690053984926" duration="351000" />
       <workItem from="1690054365493" duration="59000" />
-      <workItem from="1690059829857" duration="2383000" />
+      <workItem from="1690059829857" duration="2731000" />
     </task>
     <servers />
   </component>
