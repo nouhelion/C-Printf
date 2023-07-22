@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/ALX/PRINTF/Printf/cmake-build-debug/
 
 build cmake_object_order_depends_target_Printf: phony || CMakeFiles/Printf.dir
 
-build CMakeFiles/Printf.dir/_print.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/_print.c || cmake_object_order_depends_target_Printf
-  DEP_FILE = CMakeFiles\Printf.dir\_print.c.obj.d
+build CMakeFiles/Printf.dir/_printf.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/_printf.c || cmake_object_order_depends_target_Printf
+  DEP_FILE = CMakeFiles\Printf.dir\_printf.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Printf.dir
   OBJECT_FILE_DIR = CMakeFiles\Printf.dir
@@ -109,12 +109,6 @@ build CMakeFiles/Printf.dir/print_address.c.obj: C_COMPILER__Printf_Debug C$:/AL
   OBJECT_DIR = CMakeFiles\Printf.dir
   OBJECT_FILE_DIR = CMakeFiles\Printf.dir
 
-build CMakeFiles/Printf.dir/test.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/Printf/test.c || cmake_object_order_depends_target_Printf
-  DEP_FILE = CMakeFiles\Printf.dir\test.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Printf.dir
-  OBJECT_FILE_DIR = CMakeFiles\Printf.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Printf
@@ -123,7 +117,7 @@ build CMakeFiles/Printf.dir/test.c.obj: C_COMPILER__Printf_Debug C$:/ALX/PRINTF/
 #############################################
 # Link the executable Printf.exe
 
-build Printf.exe: C_EXECUTABLE_LINKER__Printf_Debug CMakeFiles/Printf.dir/_print.c.obj CMakeFiles/Printf.dir/print_bases.c.obj CMakeFiles/Printf.dir/print_alpha.c.obj CMakeFiles/Printf.dir/print_custom.c.obj CMakeFiles/Printf.dir/print_nums.c.obj CMakeFiles/Printf.dir/write_funcs.c.obj CMakeFiles/Printf.dir/get_flag.c.obj CMakeFiles/Printf.dir/converter.c.obj CMakeFiles/Printf.dir/get_print.c.obj CMakeFiles/Printf.dir/print_address.c.obj CMakeFiles/Printf.dir/test.c.obj
+build Printf.exe: C_EXECUTABLE_LINKER__Printf_Debug CMakeFiles/Printf.dir/_printf.c.obj CMakeFiles/Printf.dir/print_bases.c.obj CMakeFiles/Printf.dir/print_alpha.c.obj CMakeFiles/Printf.dir/print_custom.c.obj CMakeFiles/Printf.dir/print_nums.c.obj CMakeFiles/Printf.dir/write_funcs.c.obj CMakeFiles/Printf.dir/get_flag.c.obj CMakeFiles/Printf.dir/converter.c.obj CMakeFiles/Printf.dir/get_print.c.obj CMakeFiles/Printf.dir/print_address.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Printf.dir
