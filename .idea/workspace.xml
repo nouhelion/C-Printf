@@ -21,16 +21,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8390567-8c29-46a2-8e5e-27725e7b0eed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/print_HEX.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_bin.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_exclusive_string.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printf_HEX_aux.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printf_int.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printf_oct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printf_pointer.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printf_rot13.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printf_srev.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printf_unsigned.c" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/_printf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/converter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_flag.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_print.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print_address.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print_alpha.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print_bases.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print_custom.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/print_nums.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/write_funcs.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-888ada18b53dc63ad04a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-22T19-32-48-0240.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Printf-Debug-ef2a3fc88590ca3d860a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +130,7 @@
       <workItem from="1689931870549" duration="11771000" />
       <workItem from="1690053984926" duration="351000" />
       <workItem from="1690054365493" duration="59000" />
-      <workItem from="1690059829857" duration="695000" />
+      <workItem from="1690059829857" duration="1379000" />
     </task>
     <servers />
   </component>

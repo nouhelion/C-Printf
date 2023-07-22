@@ -1,12 +1,12 @@
 # ninja log v5
 0	143	7116350901693117	CMakeFiles/Printf.dir/main.c.obj	43b3f0b17b1ccff4
-166	423	7117574802357728	Printf.exe	2a61130f257459a6
+220	426	7117575942002520	Printf.exe	2a61130f257459a6
 0	150	7116352166254381	CMakeFiles/Printf.dir/src/main.c.obj	7760352e53483a78
-2	257	7117575681323784	build.ninja	f7cfd546fd2ee31b
+2	257	7117644261440287	build.ninja	f7cfd546fd2ee31b
 517	723	7117573181444612	CMakeFiles/Printf.dir/printf_unsigned.c.obj	419d68d86388fba2
 88	517	7117573179254831	CMakeFiles/Printf.dir/printf_HEX_aux.c.obj	90466ccaa335dde6
 15	576	7117573179950770	CMakeFiles/Printf.dir/_putchar.c.obj	dfc4ae34da9da75e
-4	556	7117573179554856	CMakeFiles/Printf.dir/test.c.obj	fe39004ab8f6b600
+5	219	7117575940009541	CMakeFiles/Printf.dir/test.c.obj	fe39004ab8f6b600
 69	531	7117573179434958	CMakeFiles/Printf.dir/printChar.c.obj	22fff6dd716f71ce
 25	541	7117573179454967	CMakeFiles/Printf.dir/print.c.obj	bd0f72bc74e0e6c
 45	530	7117573179404771	CMakeFiles/Printf.dir/printStr.c.obj	1cbd5bb37edc529e
@@ -24,5 +24,3 @@
 173	610	7117573180310768	CMakeFiles/Printf.dir/printf_rot13.c.obj	c68c511029c997b6
 501	698	7117573181200072	CMakeFiles/Printf.dir/printf_srev.c.obj	e5fe31badbecd271
 4	165	7117574799854343	CMakeFiles/Printf.dir/print_37.c.obj	9b8d17a5b2a093c1
-5	219	7117575940009541	CMakeFiles/Printf.dir/test.c.obj	fe39004ab8f6b600
-220	426	7117575942002520	Printf.exe	2a61130f257459a6
