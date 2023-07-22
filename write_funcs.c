@@ -2,26 +2,22 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _putchar - writes the character character to stdout
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- * Description: _putchar uses a local buffer of 1024 to call write
- * as little as possible
  */
-int _putchar(char c)
+int _putchar(char character)
 {
-	static char buf[1024];
+	static char buffer[1024];
 	static int i;
 
-	if (c == -1 || i >= 1024)
+	if (character == -1 || i >= 1024)
 	{
-		write(1, &buf, i);
+		write(1, &buffer, i);
 		i = 0;
 	}
-	if (c != -1)
+	if (character != -1)
 	{
-		buf[i] = c;
+        buffer[i] = character;
 		i++;
 	}
 	return (1);
@@ -29,7 +25,6 @@ int _putchar(char c)
 
 /**
  * _puts - prints a string to stdout
- * @str: pointer to the string to print
  * Return: number of chars written
  */
 int _puts(char *str)
