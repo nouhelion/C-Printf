@@ -3,17 +3,17 @@
 /**
  * print_hex - prints a number in hexadecimal base,
  * in lowercase
- * @l: va_list arguments from _print
+ * @l: va_list arguments from _printf
  * @f: pointer to the struct flags that determines
- * if a flag is passed to _print
- * Description: the function calls conv() which in turns converts the input
+ * if a flag is passed to _printf
+ * Description: the function calls convert() which in turns converts the input
  * number into the correct base and returns it as a string
  * Return: the number of char printed
  */
 int print_hex(va_list l, flags_t *f)
 {
 	unsigned int num = va_arg(l, unsigned int);
-	char *str = conv(num, 16, 1);
+	char *str = convert(num, 16, 1);
 	int count = 0;
 
 	if (f->hash == 1 && str[0] != '0')
@@ -25,17 +25,17 @@ int print_hex(va_list l, flags_t *f)
 /**
  * print_hex_big - prints a number in hexadecimal base,
  * in uppercase
- * @l: va_list arguments from _print
+ * @l: va_list arguments from _printf
  * @f: pointer to the struct that determines
- * if a flag is passed to _print
- * Description: the function calls conv() which in turns converts the input
+ * if a flag is passed to _printf
+ * Description: the function calls convert() which in turns converts the input
  * number into the correct base and returns it as a string
  * Return: the number of char printed
  */
 int print_hex_big(va_list l, flags_t *f)
 {
 	unsigned int num = va_arg(l, unsigned int);
-	char *str = conv(num, 16, 0);
+	char *str = convert(num, 16, 0);
 	int count = 0;
 
 	if (f->hash == 1 && str[0] != '0')
@@ -46,17 +46,17 @@ int print_hex_big(va_list l, flags_t *f)
 
 /**
  * print_binary - prints a number in base 2
- * @l: va_list arguments from _print
+ * @l: va_list arguments from _printf
  * @f: pointer to the struct that determines
- * if a flag is passed to _print
- * Description: the function calls conv() which in turns converts the input
+ * if a flag is passed to _printf
+ * Description: the function calls convert() which in turns converts the input
  * number into the correct base and returns it as a string
  * Return: the number of char printed
  */
 int print_binary(va_list l, flags_t *f)
 {
 	unsigned int num = va_arg(l, unsigned int);
-	char *str = conv(num, 2, 0);
+	char *str = convert(num, 2, 0);
 
 	(void)f;
 	return (_puts(str));
@@ -64,17 +64,17 @@ int print_binary(va_list l, flags_t *f)
 
 /**
  * print_octal - prints a number in base 8
- * @l: va_list arguments from _print
+ * @l: va_list arguments from _printf
  * @f: pointer to the struct that determines
- * if a flag is passed to _print
- * Description: the function calls conv() which in turns converts the input
+ * if a flag is passed to _printf
+ * Description: the function calls convert() which in turns converts the input
  * number into the correct base and returns it as a string
  * Return: the number of char printed
  */
 int print_octal(va_list l, flags_t *f)
 {
 	unsigned int num = va_arg(l, unsigned int);
-	char *str = conv(num, 8, 0);
+	char *str = convert(num, 8, 0);
 	int count = 0;
 
 	if (f->hash == 1 && str[0] != '0')

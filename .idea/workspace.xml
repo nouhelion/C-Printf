@@ -20,23 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8390567-8c29-46a2-8e5e-27725e7b0eed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_printf.c" beforeDir="false" afterPath="$PROJECT_DIR$/_print.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter.c" beforeDir="false" afterPath="$PROJECT_DIR$/converter.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_flag.c" beforeDir="false" afterPath="$PROJECT_DIR$/get_flag.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_print.c" beforeDir="false" afterPath="$PROJECT_DIR$/get_print.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_address.c" beforeDir="false" afterPath="$PROJECT_DIR$/print_address.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_alpha.c" beforeDir="false" afterPath="$PROJECT_DIR$/print_alpha.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_bases.c" beforeDir="false" afterPath="$PROJECT_DIR$/print_bases.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_custom.c" beforeDir="false" afterPath="$PROJECT_DIR$/print_custom.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/print_nums.c" beforeDir="false" afterPath="$PROJECT_DIR$/print_nums.c" afterDir="false" />
-    </list>
+    <list default="true" id="f8390567-8c29-46a2-8e5e-27725e7b0eed" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +35,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/_print.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test.c" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -119,7 +104,7 @@
       <workItem from="1689931870549" duration="11771000" />
       <workItem from="1690053984926" duration="351000" />
       <workItem from="1690054365493" duration="59000" />
-      <workItem from="1690059829857" duration="1670000" />
+      <workItem from="1690059829857" duration="1995000" />
     </task>
     <servers />
   </component>

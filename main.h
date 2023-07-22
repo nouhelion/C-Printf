@@ -1,12 +1,12 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
 #include <stdlib.h>
 #include <stdarg.h>
 
 /**
  * struct flags - struct containing flags to "turn on"
- * when a flag specifier is passed to _print()
+ * when a flag specifier is passed to _printf()
  * @plus: flag for the '+' character
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
@@ -20,7 +20,7 @@ typedef struct flags
 
 /**
  * struct printHandler - struct to choose the right function depending
- * on the format specifier passed to _print()
+ * on the format specifier passed to _printf()
  * @c: format specifier
  * @f: pointer to the correct printing function
  */
@@ -43,10 +43,10 @@ int print_binary(va_list l, flags_t *f);
 int print_octal(va_list l, flags_t *f);
 
 /* converter */
-char *conv(unsigned long int num, int base, int lowercase);
+char *convert(unsigned long int num, int base, int lowercase);
 
-/* _print */
-int _print(const char *format, ...);
+/* _printf */
+int _printf(const char *format, ...);
 
 /* get_print */
 int (*get_print(char s))(va_list, flags_t *);
@@ -73,4 +73,4 @@ int print_address(va_list l, flags_t *f);
 /* print_percent */
 int print_percent(va_list l, flags_t *f);
 
-#endif MAIN_H
+#endif

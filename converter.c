@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * conv - converts number and base into string
+ * convert - converts number and base into string
  * @num: input number
  * @base: input base
  * @lowercase: flag if hexa values need to be lowercase
  * Return: result string
  */
-char *conv(unsigned long int num, int base, int lowercase)
+char *convert(unsigned long int num, int base, int lowercase)
 {
 	static char *rep;
 	static char buffer[50];
