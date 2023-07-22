@@ -36,8 +36,30 @@ int _strLenc(const char *s);
 //get the length of a string
 int _strLen(char *s);
 
+int print_37(void);
 
+int print_HEX(va_list val);
 
+int print_bin(va_list val);
 
+int print_exclusive_string(va_list val);
+
+int print_hex_aux(unsigned long int num);
+
+int print_int(va_list args);
+
+int print_dec(va_list args);
+
+int print_oct(va_list val);
+
+int print_pointer(va_list val);
+
+int print_pointer(va_list val);
+
+int print_rot13(va_list args);
+
+int print_srev(va_list args);
+
+int print_unsigned(va_list args);
 
 #endif // MAIN_H
