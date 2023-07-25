@@ -11,10 +11,10 @@ This project is an implementation of the `printf` function in C programming lang
 - [Project Structure](#project-structure)
 - [Authorized functions and macros](#authorized-functions-and-macros)
 - [Usage](#usage)
-- [Supported Format Specifiers](#supported-format-specifiers)
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
+- [Authors ©](#Authors-©)
 
 ## Installation
 
@@ -128,3 +128,7 @@ Please ensure your code follows the project's coding standards and conventions.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Authors ©
+Nouhaila Kamel
+Souhail Aissaoui
