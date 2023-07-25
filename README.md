@@ -14,7 +14,7 @@ This project is an implementation of the `printf` function in C programming lang
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
-- [Authors ©](#Authors)
+- [Authors](#Authors)
 
 ## Installation
 
@@ -130,7 +130,7 @@ Please ensure your code follows the project's coding standards and conventions.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Authors ©
+## Authors
 
 Nouhaila Kamel
 
